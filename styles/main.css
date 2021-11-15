@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    margin: 0 auto;
+    max-width: 1024px;
+    height: 100vh;
+    font-size: 1.6rem;
+    color: #f5f5f5d7;
+    background-color: #140c25;
+}
+header {
+    padding-top: 2.4rem;
+    text-align: center;
+}
+main {
+    margin-top: 6.4rem;
+    text-align: center;
+}
+h1 {
+    font-size: 3.2rem;
+}
+.points {
+    font-size: 6.4rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+.buttons {
+    margin-top: 2.4rem;
+    padding: 0 2.4rem;
+    display: flex;
+    justify-content: space-between;
+}
+.btn {
+    padding: 0.3em 1.2em;
+    color: #140c25;
+    border: none;
+    border-radius: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+.add-points {
+    background-color: #0fe971;
+}
+.subtract-points {
+    background-color: #e61395;
+}
+.distribute {
+    display: flex;
+    justify-content: center;
+}.distribute button {
+    background-color: #5213e6;
+}
