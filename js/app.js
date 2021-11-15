@@ -8,15 +8,18 @@ let i = 3;
 document.addEventListener('DOMContentLoaded', function() {
     points.textContent = i;
 })
-add.addEventListener('click', function () {
+add.addEventListener('click', function (e) {
+    e.stopPropagation();
     i++
     points.textContent = i;
 })
-subtract.addEventListener('click', function () {
+subtract.addEventListener('click', function (e) {
+    e.stopPropagation();
     i--
     points.textContent = i;
 })
-distribute.addEventListener('click', function () {
+distribute.addEventListener('click', function (e) {
+    e.stopPropagation();
     i = i + 2;
     points.textContent = i;
 })
