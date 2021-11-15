@@ -45,6 +45,7 @@ h1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, 'Helvetica Neue', sans-serif;
     font-size: 1.8rem;
     font-weight: 700;
+    touch-action: manipulation;
 }
 .add-points {
     background-color: #0fe971;
